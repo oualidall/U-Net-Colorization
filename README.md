@@ -64,8 +64,8 @@ Il associe une **perte perceptuelle (VGG16)** à un **pipeline de dégradation p
 
 | Example | Link |
 |----------|------|
-| Dogs | [viz_class_300_test.png](outputs_examples/viz_class_300_test.png) |
-| Castles | [viz_class_700_test.png](outputs_examples/viz_class_700_test.png) |
+| Classe #300 | [viz_class_300_test.png](outputs_examples/viz_class_300_test.png) |
+| Classe #700| [viz_class_700_test.png](outputs_examples/viz_class_700_test.png) |
 | Class #4 | [viz_class_0004_test.png](outputs_examples/viz_class_0004_test.png) |
 | Class #15 | [viz_class_0015_test.png](outputs_examples/viz_class_0015_test.png) |
 | Class #620 | [viz_class_0620_test.png](outputs_examples/viz_class_0620_test.png) |
@@ -82,3 +82,4 @@ Il associe une **perte perceptuelle (VGG16)** à un **pipeline de dégradation p
 git clone https://github.com/oualidall/U-Net-Colorization.git
 cd U-Net-Colorization
 pip install -r requirements.txt
+
