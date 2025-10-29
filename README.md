@@ -16,6 +16,12 @@ Ce projet met en œuvre un **réseau de neurones U-Net** entraîné sur **ImageN
 Il associe une **perte perceptuelle (VGG16)** à un **pipeline de dégradation personnalisé (OldPhotoMaker)** simulant le vieillissement des clichés (grain, vignette, rayures).
 
 ---
+## 📦 Dataset
+
+This model was trained on the [ImageNet-64 dataset](https://image-net.org/download-images.php), 
+a 64×64 downscaled version of ImageNet.
+
+To reproduce training, download and place it under:
 
 ## 🧠 Model Architecture / Architecture du Modèle
 
@@ -83,6 +89,7 @@ Il associe une **perte perceptuelle (VGG16)** à un **pipeline de dégradation p
 git clone https://github.com/oualidall/U-Net-Colorization.git
 cd U-Net-Colorization
 pip install -r requirements.txt
+
 
 
 
