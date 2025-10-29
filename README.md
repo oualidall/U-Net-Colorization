@@ -75,11 +75,13 @@ Il associe une **perte perceptuelle (VGG16)** à un **pipeline de dégradation p
 ---
 
 ## ⚙️ Usage / Utilisation
-
+🔗 Download pretrained model:
+[unet_best.pt (HuggingFace)](https://huggingface.co/Oualidallouch2002/unet_best)
 ### 🔧 Installation
 
 ```bash
 git clone https://github.com/oualidall/U-Net-Colorization.git
 cd U-Net-Colorization
 pip install -r requirements.txt
+
 
